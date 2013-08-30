@@ -51,7 +51,7 @@ public class Cell extends JPanel{
 		}
 		else if(seed)
 		{
-			g.setColor(Color.GREEN);
+			g.setColor(Color.YELLOW);
 			g.fillRect(0, 0, _size, _size);
 		}
 		else
