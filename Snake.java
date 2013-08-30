@@ -20,7 +20,7 @@ public class Snake {
 		_headLocation = new Point(GameManager.ARENA_WIDTH/2, GameManager.ARENA_HEIGHT-1);
 		
 		length = 0;
-		food = 0;
+		food = 50;
 		_body = new LinkedList<Cell>();
 		_newHeadings = new LinkedList<DIR>();		
 		
@@ -68,6 +68,7 @@ public class Snake {
 		moveHead();
 		if(food < 1)
 		{
+			moveTail();
 			moveTail();
 		}
 		else

@@ -19,7 +19,7 @@ public class GameManager extends JFrame implements MouseListener {
 	public static final int CELL_SIZE = 15;
 	public static final int ARENA_HEIGHT = 35;
 	public static final int ARENA_WIDTH = 33;
-	public static final int FOOD_VALUE = 5;
+	public static final int FOOD_VALUE = 20;
 	public static final Snake.DIR STARTING_HEADING = Snake.DIR.UP;
 	
 	
